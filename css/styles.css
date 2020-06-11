@@ -1,0 +1,44 @@
+h1{
+   color: blueviolet;
+   /* both don't show the element but visibility keeps the space blank but display will remove the space occupied by the elemennt too
+   visibility: hidden;
+   display:none; 
+   */
+}
+.head{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    /* relative is w.r.t its previous natural placement in the page */
+    position: relative;
+    left:600px;
+    /* fixed doesnt change at all */
+    position:fixed;
+    left:0px;
+    top:0px;
+    
+}
+
+.up{
+    background-color: darkcyan;
+    width: 200px;
+    height: 200px;
+    /* absolute is w.r.t parent */
+    position: absolute;
+    left:200px;
+    top:200px;
+    
+    /*border: solid 20px;*/
+}
+.down{
+    background-color: darkkhaki;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left:400px;
+    top:400px;
+}
+
+.my{
+    font-style: oblique;
+}
